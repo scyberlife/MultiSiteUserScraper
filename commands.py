@@ -5,13 +5,13 @@ from config import bot
 from bs4 import BeautifulSoup
 
 all_url = {
-    "github": "https://github.com/",
-    "career.habr": "https://career.habr.com/",
-    "tiktok": "https://tiktok.com/@",
-    "pikabu": "https://pikabu.ru/@",
-    "reddit": "https://reddit.com/user/",
-    "instagram": "https://instagram.com/",
-}
+      "github": "https://github.com/",
+      "career.habr": "https://career.habr.com/",
+      "tiktok": "https://www.tiktok.com/@",
+      "pikabu": "https://pikabu.ru/@",
+      "reddit": "https://reddit.com/user/",
+      "instagram": "https://instagram.com/",
+ }
 
 async def all_search(message: types.Message):
     # Получаем имя пользователя, которое нужно найти
@@ -22,13 +22,15 @@ async def all_search(message: types.Message):
     # В цикле по сайтам проверяем, найден ли пользователь и сохраняем результаты в словарь
     for url in all_url.values():
         try:
-            response = get(url, timeout=2)
-
+            response = get(url + username, timeout=5)
+            soup = BeautifulSoup(response.text, 'html.parser')
+            # user_info = soup.find('div', {'class': 'имя_класса'})
+            user_info = soup.find('a', class_='_31VWB3vSkv19o3I7RVE710')
+            user_info1 = soup.find('title')
         except:
             continue
-        soup = BeautifulSoup(response.text, 'html.parser')
-        user_info = soup.find(text=username)
-        if response.status_code == 200:
+        wrong = 'Sorry, nobody on Reddit goes by that name.'
+        if username in str(user_info) or username in str(user_info1):
             if username not in search_results:
                 search_results[username] = []
             search_results[username].append(f"{url}{username}")
