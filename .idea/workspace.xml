@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d9c9ad5-97b6-4dc4-8438-0e36e3b9a135" name="Changes" comment="" />
+    <list default="true" id="0d9c9ad5-97b6-4dc4-8438-0e36e3b9a135" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +45,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -81,7 +87,7 @@
       <workItem from="1680606136054" duration="47198000" />
       <workItem from="1680694667652" duration="19107000" />
       <workItem from="1680750700944" duration="436000" />
-      <workItem from="1680751153454" duration="673000" />
+      <workItem from="1680751153454" duration="3265000" />
     </task>
     <servers />
   </component>
