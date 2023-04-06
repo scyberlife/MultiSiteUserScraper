@@ -43,7 +43,7 @@ Then go to where 'USERNAME' is the username you want to find:
 ```html
 http://localhost:5000/search?username=<USERNAME>
 ```
-The search results will be saved in JSON format in the search_results.json file.
+The search results will be saved on the desktop in JSON format in the file search_results.json
 
 ## Examples of responses: 
  
