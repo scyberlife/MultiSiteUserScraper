@@ -34,13 +34,13 @@ Run the application:
 ```bash
 python3 main.py
 ```
-Then go to where <USERNAME> is the username you want to find.:
+Then go to where 'USERNAME' is the username you want to find.:
 ```html
 http://localhost:5000/search?username=<USERNAME>
 ```
 The search results will be saved in JSON format in the search_results.json file.
 
-## Examples of responses 
+## Examples of responses: 
  
 ```json
 {
@@ -54,4 +54,4 @@ The search results will be saved in JSON format in the search_results.json file.
 
 ### Authors:
 
-Sergei Beliaev - Idea and development - scyberlife
+Sergei Beliaev - Idea and development - <a href="https://github.com/scyberlife">scyberlife</a>
