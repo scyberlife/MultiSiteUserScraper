@@ -39,7 +39,7 @@ Launch the application on Windows:
 python main.py
 ```
 
-Then go to where 'USERNAME' is the username you want to find.:
+Then go to where 'USERNAME' is the username you want to find:
 ```html
 http://localhost:5000/search?username=<USERNAME>
 ```
