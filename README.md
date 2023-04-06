@@ -22,7 +22,7 @@ Before starting to work with the project, the following components must be insta
 
 Clone the repository to your local computer: 
 ```bash
-git clone https://github.com/your_username/repository_name.git
+git clone https://github.com/scyberlife/multi-site-username-scraper
 ```
 
 Install all dependencies: 
