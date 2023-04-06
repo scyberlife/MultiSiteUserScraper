@@ -30,10 +30,15 @@ Install all dependencies:
 pip install -r requirements.txt
 ```
 ## Usage:
-Run the application:
+Launch the application on MacOS & Linux:
 ```bash
 python3 main.py
 ```
+Launch the application on Windows:
+```bash
+python main.py
+```
+
 Then go to where 'USERNAME' is the username you want to find.:
 ```html
 http://localhost:5000/search?username=<USERNAME>
